@@ -4,7 +4,10 @@ Este projeto é um **formulário web interativo** que permite ao usuário inseri
 
 > ⚠️ Este repositório está **em constante desenvolvimento** e **sujeito a mudanças**, já que o projeto pode ser expandido ou adaptado conforme orientações da disciplina ou para fins de aprimoramento pessoal.
 
----
+---![modo pc](https://github.com/user-attachments/assets/fa567632-9216-4f08-978e-eb81b1687f8a)![responsivo](https://github.com/user-attachments/assets/9d26d5b3-49f6-47f3-b286-f880a86a9feb)![lista](https://github.com/user-attachments/assets/ed74504e-b123-4e0a-b17e-1c0abaaefdd6)
+
+
+
 
 ## 🎯 Objetivo do Projeto
 
@@ -27,7 +30,7 @@ Este projeto é um **formulário web interativo** que permite ao usuário inseri
 
 - **HTML5** – Estrutura da aplicação
 - **CSS3** – Estilização da interface e responsividade
-- **PHP (puro)** – Lógica de exibição e manipulação de dados
+- **PHP e Javascript (puro)** – Lógica de exibição e manipulação de dados
 
 
 ---
