@@ -11,7 +11,7 @@ class Participante {
     $this->interesses = $interesses;
     $this->estado = $estado;
     $this->mensagem = $mensagem;
-    $this->data = date('Y-m-d H:i:s');
+    $this->data = date('d/m/y H:i:s');
   }
 
   public function toArray() {

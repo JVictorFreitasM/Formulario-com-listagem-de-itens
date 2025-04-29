@@ -7,7 +7,7 @@
   <h1>Cadastro de Participantes</h1>
   <?php
     $formulario = new Formulario();
-    echo $formulario->render();
+    echo $formulario->form();
   ?>
 </main>
 

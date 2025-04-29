@@ -1,6 +1,6 @@
 <?php
 class Formulario {
-  public function render() {
+  public function form() {
     return '
     <form action="processa.php" method="GET">
       <label>Nome:
