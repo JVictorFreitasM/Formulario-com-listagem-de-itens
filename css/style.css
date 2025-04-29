@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #5d18dc;
+  margin: 0;
+  padding: 0;
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  background-color: black;
+  gap:20px;
+}
+
+.menu {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  display: none;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list li {
+  margin-right: 15px;
+}
+
+.menu-list a {
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor:pointer;
+  border: 0;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+.menu-list a:hover {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  background-color: #5D19DD;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.input {
+  color: white;
+  border: 2px solid #5d18dc;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+}
+
+.input:active {
+  box-shadow: 2px 2px 15px #5d18dc inset;
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: #5d18dc;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #5d18dc 0px 7px 29px 0px;
+}
+
+.social-media-buttons{
+  display: flex;
+  gap: 18px;
+}
+
+.social-media-buttons a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  color: #5d18dc;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .3s;
+}
+
+.social-media-buttons a:hover{
+  box-shadow: 0px 0px 12px 8px #ffffff3a;
+}
+
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+  .menu-list {
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .menu-list.active {
+    display: flex;
+  }
+}

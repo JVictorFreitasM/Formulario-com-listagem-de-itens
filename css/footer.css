@@ -1,0 +1,16 @@
+#back_footer{
+    background-color: #5d19DD;
+}
+
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+#copy{
+    
+    font-weight: 500;
+}
