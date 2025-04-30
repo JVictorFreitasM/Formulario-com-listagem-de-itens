@@ -1,5 +1,7 @@
 <?php
+//Classe do formulário
 class Formulario {
+  //Método que retorna o formulário html na pagina de cadastro
   public function form() {
     return '
     <form action="processa.php" method="GET">

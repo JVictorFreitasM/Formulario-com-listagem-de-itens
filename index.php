@@ -6,7 +6,9 @@
 <main>
   <h1>Cadastro de Participantes</h1>
   <?php
+  //instancia um novo objeto Formulário sempre que é preciso adicionar um novo participante
     $formulario = new Formulario();
+    //Printa o formulário html na tela a partir do método form()
     echo $formulario->form();
   ?>
 </main>
